@@ -31,7 +31,7 @@ MACHINE_LIST = ['clv1', 'clv2', 'clv3', 'hsw1', 'hsw3', 'hsw4', 'hsw5', 'hswb', 
                 'nhm9', 'noc1', 'noc2', 'noc3', 'noc5', 'quicktrace', 'snb1', 'vlv1']
 
 
-conn = pymssql.connect("172.20.2.60:1433", "pttweb", "pttmysql", "TracingPipelinePilot")
+conn = pymssql.connect("", "", "", "")
 
 global TOOLS
 
